@@ -32,8 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a21s-common/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
     vendor/samsung/a21s-common/proprietary/vendor/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin \
     vendor/samsung/a21s-common/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
@@ -110,7 +108,6 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     camera.exynos850 \
     gatekeeper.exynos850 \
-    gralloc.exynos850 \
     vulkan.mali \
     libSEF.quram \
     lib_SoundAlive_3DPosition_ver202 \
@@ -193,7 +190,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio_manifest_2_33.xml \
     vendor.samsung.hardware.sehradio_manifest_2_33.xml \
     cass \
-    cbd \
     android.hardware.drm@1.4-service.widevine \
     gps \
     gpsd \

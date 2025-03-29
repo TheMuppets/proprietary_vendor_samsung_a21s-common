@@ -163,58 +163,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "gralloc.exynos850",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/gralloc.exynos850.so",
-            ],
-            shared_libs: [
-                "libhardware",
-                "liblog",
-                "libcutils",
-                "libGLESv1_CM",
-                "libion_exynos",
-                "libsync",
-                "libutils",
-                "libnativewindow",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/gralloc.exynos850.so",
-            ],
-            shared_libs: [
-                "libhardware",
-                "liblog",
-                "libcutils",
-                "libGLESv1_CM",
-                "libion_exynos",
-                "libsync",
-                "libutils",
-                "libnativewindow",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vulkan.mali",
     owner: "samsung",
     strip: {
@@ -2966,32 +2914,6 @@ cc_prebuilt_binary {
                 "liblog",
                 "libc++",
                 "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "cbd",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/cbd",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc",
-                "libc++",
                 "libm",
                 "libdl",
             ],
