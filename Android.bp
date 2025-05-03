@@ -2460,7 +2460,7 @@ cc_prebuilt_library_shared {
                 "libjsoncpp",
                 "libSemTelephonyProps",
                 "libSemDataProps",
-                "//device/samsung/a21s-common/shims/stub:libvkmanager_vendor",
+                "libvkmanager_vendor",
                 "libengmode_client",
                 "libbase",
                 "libbinder_ndk",
@@ -2908,7 +2908,7 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "libengmode_client",
-                "//device/samsung/a21s-common/shims/stub:libvkmanager_vendor",
+                "libvkmanager_vendor",
                 "libsecril-client",
                 "libcutils",
                 "liblog",
