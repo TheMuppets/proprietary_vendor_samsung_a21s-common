@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a21s-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a21s-common/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
     vendor/samsung/a21s-common/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
@@ -110,19 +109,11 @@ PRODUCT_PACKAGES += \
     gatekeeper.exynos850 \
     vulkan.mali \
     libSEF.quram \
-    lib_SoundAlive_3DPosition_ver202 \
-    lib_SoundAlive_AlbumArt_ver105 \
-    lib_SoundAlive_play_plus_ver400 \
-    lib_SoundBooster_ver1050 \
     libexynoscamera3 \
     libexynoscamera_plugin \
     libexynoscamera_tdnr_plugin \
-    libfloatingfeature \
     libmfb \
-    libprofileparamstorage \
     libremosaic_wrapper \
-    libsecaudiocoreutils \
-    libsecaudioinfo \
     libsecnativefeature \
     libsecril-client \
     libsemnativecarrierfeature \
@@ -133,28 +124,8 @@ PRODUCT_PACKAGES += \
     libuuid_vendor \
     sensors.grip \
     sensors.sensorhub \
-    libaudioeffectoffload \
-    libaudiosaplus_sec \
-    libmysound \
-    libmyspace \
-    libsamsungSoundbooster_plus \
-    libswdap \
     vendor.samsung.hardware.thermal@1.0 \
-    audio.primary.exynos850 \
-    libSamsungPostProcessConvertor \
-    lib_SamsungRec_07010 \
-    lib_SoundAlive_SRC384_ver320 \
-    lib_soundaliveresampler \
-    libaboxpcmdump \
-    libalsautils_sec \
-    libaudio-ril \
-    libaudioparamupdate \
-    libaudioproxy \
-    libaudioroute_a21s \
-    libdatamod \
-    liblastaboxmsg \
     liboemcrypto \
-    librecordalive \
     libwvhidl \
     android.hardware.gnss@2.1-impl \
     vendor.samsung.hardware.gnss@2.1-impl \
@@ -165,6 +136,7 @@ PRODUCT_PACKAGES += \
     libcrypto-tm \
     libegis_fp_normal_sensor_test \
     libengmode_client \
+    libfloatingfeature \
     libgf_in_system_lib \
     libkeymaster_helper \
     libprotobuf-cpp-full-21.7 \
