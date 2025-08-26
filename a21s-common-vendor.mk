@@ -126,7 +126,10 @@ PRODUCT_PACKAGES += \
     sensors.sensorhub \
     vendor.samsung.hardware.thermal@1.0 \
     liboemcrypto \
+    libprofileparamstorage \
+    libsecaudiocoreutils \
     libwvhidl \
+    libswdap \
     android.hardware.gnss@2.1-impl \
     vendor.samsung.hardware.gnss@2.1-impl \
     libSemDataProps \
