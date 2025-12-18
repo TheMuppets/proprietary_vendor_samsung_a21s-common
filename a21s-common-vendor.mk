@@ -142,7 +142,6 @@ PRODUCT_PACKAGES += \
     libfloatingfeature \
     libgf_in_system_lib \
     libkeymaster_helper \
-    libprotobuf-cpp-full-21.7 \
     libqfp_sensortest \
     libril_sem \
     libsec-ril \
