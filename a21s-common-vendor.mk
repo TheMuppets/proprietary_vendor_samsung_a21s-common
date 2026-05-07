@@ -113,10 +113,10 @@ PRODUCT_PACKAGES += \
     libexynoscamera_plugin \
     libexynoscamera_tdnr_plugin \
     libmfb \
+    libprofileparamstorage \
     libremosaic_wrapper \
+    libsecaudiocoreutils \
     libsecnativefeature \
-    libsecril-client \
-    libsemnativecarrierfeature \
     libsensorlistener \
     libteecl \
     libuniapi \
@@ -126,8 +126,6 @@ PRODUCT_PACKAGES += \
     sensors.sensorhub \
     vendor.samsung.hardware.thermal@1.0 \
     liboemcrypto \
-    libprofileparamstorage \
-    libsecaudiocoreutils \
     libwvhidl \
     libswdap \
     android.hardware.gnss@2.1-impl \
@@ -145,6 +143,8 @@ PRODUCT_PACKAGES += \
     libqfp_sensortest \
     libril_sem \
     libsec-ril \
+    libsecril-client \
+    libsemnativecarrierfeature \
     libskeymaster4device \
     libstork_shared \
     libsynaFpSensorTestNwd \
