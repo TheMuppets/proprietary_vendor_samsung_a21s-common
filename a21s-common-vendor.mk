@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/teegris_v4.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_v4.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
@@ -129,7 +128,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libswdap \
     android.hardware.gnss@2.1-impl \
-    vendor.samsung.hardware.gnss@2.1-impl \
     libSemDataProps \
     libSemTelephonyProps \
     libbauthserver \
@@ -151,8 +149,6 @@ PRODUCT_PACKAGES += \
     libvkmanager_vendor \
     libvkservice \
     libwrappergps \
-    vendor.samsung.hardware.gnss@2.0 \
-    vendor.samsung.hardware.gnss@2.1 \
     vendor.samsung.hardware.radio-V1-ndk \
     vendor.samsung.hardware.radio.bridge-V1-ndk \
     vendor.samsung.hardware.radio.channel-V1-ndk \
@@ -168,7 +164,6 @@ PRODUCT_PACKAGES += \
     gps \
     gpsd \
     rild \
-    vendor.samsung.hardware.gnss@2.1-service \
     tzdaemon \
     tzts_daemon \
     vaultkeeperd
