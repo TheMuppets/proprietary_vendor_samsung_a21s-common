@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libGLES_mali \
     camera.exynos850 \
-    gatekeeper.exynos850 \
     vulkan.mali \
     libSEF.quram \
     libexynoscamera3 \
