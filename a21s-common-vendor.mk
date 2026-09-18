@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a21s-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/a21s-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a21s-common/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
     vendor/samsung/a21s-common/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
@@ -107,6 +108,7 @@ PRODUCT_PACKAGES += \
     camera.exynos850 \
     vulkan.mali \
     libSEF.quram \
+    lib_SoundBooster_ver1050 \
     libexynoscamera3 \
     libexynoscamera_plugin \
     libexynoscamera_tdnr_plugin \
