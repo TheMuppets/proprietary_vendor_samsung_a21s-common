@@ -141,7 +141,7 @@ PRODUCT_PACKAGES += \
     libkeymaster_helper \
     libqfp_sensortest \
     libril_sem \
-    libsec-ril \
+    libsec-ril-impl \
     libsecril-client \
     libsemnativecarrierfeature \
     libskeymaster4device \
