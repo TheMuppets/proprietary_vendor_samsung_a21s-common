@@ -1199,7 +1199,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcrypto-tm",
+    name: "libcryptx",
     owner: "samsung",
     strip: {
         none: true,
@@ -1207,7 +1207,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libcrypto-tm.so",
+                "proprietary/vendor/lib64/libcryptx.so",
             ],
             shared_libs: [
                 "libc",
@@ -1344,7 +1344,7 @@ cc_prebuilt_library_shared {
                 "libkeymaster4support",
                 "libkeymaster4_1support",
                 "libhidlbase",
-                "libcrypto-tm",
+                "libcryptx",
                 "libteecl",
                 "libc++",
                 "libc",
@@ -1549,7 +1549,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libshim_crypto",
                 "libkeymaster_messages",
-                "libcrypto-tm",
+                "libcryptx",
                 "liblog",
                 "libcutils",
                 "libutils",
@@ -1560,6 +1560,30 @@ cc_prebuilt_library_shared {
                 "android.hardware.keymaster@4.1",
                 "libkeymaster_helper",
                 "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libssx",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libssx.so",
+            ],
+            shared_libs: [
+                "libcryptx",
                 "libc",
                 "libm",
                 "libdl",
@@ -1982,8 +2006,8 @@ cc_prebuilt_binary {
                 "liblog",
                 "libm",
                 "libandroid_net",
-                "libssl",
-                "libcrypto",
+                "libssx",
+                "libcryptx",
                 "libz",
                 "libdl",
                 "libc",

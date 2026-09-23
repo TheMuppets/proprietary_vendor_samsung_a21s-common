@@ -133,7 +133,7 @@ PRODUCT_PACKAGES += \
     libSemTelephonyProps \
     libbauthserver \
     libbauthtzcommon \
-    libcrypto-tm \
+    libcryptx \
     libegis_fp_normal_sensor_test \
     libengmode_client \
     libfloatingfeature \
@@ -145,6 +145,7 @@ PRODUCT_PACKAGES += \
     libsecril-client \
     libsemnativecarrierfeature \
     libskeymaster4device \
+    libssx \
     libstork_shared \
     libsynaFpSensorTestNwd \
     libvkmanager_vendor \
